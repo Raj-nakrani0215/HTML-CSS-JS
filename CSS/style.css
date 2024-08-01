@@ -44,12 +44,15 @@ nav div ul li a {
 nav div button {
     height: max-content;
     padding: 15px;
-    color: white;
     background-color: #28CB8B;
     border: none;
     border-radius: 5px
 }
-
+nav div button a{
+    text-decoration: none;
+    color: white;
+    font-weight:bold ;
+}
 .container {
     background-color: #F5F7FA;
     display: flex;
